@@ -1,0 +1,7 @@
+CHỌN WORD TẠI CON TRỎ
+editor.action.addSelectionToNextFindMatch -> gan cho ctrl + WORD
+
+
+format code python dung black python -> gan khi save tu thu dong format
+
+goi y code khi implement interface: dat con tro vao ten class, sau do ctrl + .

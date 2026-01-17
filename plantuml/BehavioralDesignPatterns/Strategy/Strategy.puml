@@ -1,0 +1,44 @@
+@startuml
+
+
+interface SortingStrategy {
+    + sort(data: int[])
+}
+
+class BubbleSortStrategy {
+    + sort(data: int[])
+}
+
+class QuickSortStrategy {
+    + sort(data: int[])
+}
+
+class MergeSortStrategy {
+    + sort(data: int[])
+}
+
+class SortingContext {
+    - sortingStrategy: SortingStrategy
+    + SortingContext(st: SortingStrategy)
+    + setSortingStrategy(st: SortingStrategy)
+    + performSort(data: int[])
+}
+
+class Client {
+    + main()
+}
+
+
+BubbleSortStrategy ..|> SortingStrategy
+QuickSortStrategy ..|> SortingStrategy
+MergeSortStrategy ..|> SortingStrategy
+
+SortingContext o-- SortingStrategy
+
+Client ..> BubbleSortStrategy
+Client ..> QuickSortStrategy
+Client ..> MergeSortStrategy
+
+Client --> SortingContext
+
+@enduml
