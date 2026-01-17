@@ -22,7 +22,7 @@
 
 ### 🏛️Class diagram
 
-[Strategy](../../out/plantuml/BehavioralDesignPatterns/Strategy/Strategy/Strategy.png)
+![Strategy](../../out/plantuml/BehavioralDesignPatterns/Strategy/Strategy/Strategy.png)
 
 ### 💻 Code
 

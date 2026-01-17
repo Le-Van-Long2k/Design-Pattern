@@ -6,6 +6,6 @@ Design Pattern
 
 ---
 
-![BehavioralDesignPatterns.md](plantuml/BehavioralDesignPatterns/BehavioralDesignPatterns.md)
+[BehavioralDesignPatterns.md](plantuml/BehavioralDesignPatterns/BehavioralDesignPatterns.md)
 
 ---
