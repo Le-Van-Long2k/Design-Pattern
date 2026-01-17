@@ -22,10 +22,10 @@
 
 ### 🏛️Class diagram
 
-![Strategy](../../out/plantuml/BehavioralDesignPatterns/Strategy/Strategy/Strategy.png)
+[Strategy](../../out/plantuml/BehavioralDesignPatterns/Strategy/Strategy/Strategy.png)
 
 ### 💻 Code
 
 #### 🐍 python
 
-![strategy.py](../../Code/python/BehavioralDesignPatterns/Strategy/strategy.py)
+[strategy.py](../../Code/python/BehavioralDesignPatterns/Strategy/strategy.py)
