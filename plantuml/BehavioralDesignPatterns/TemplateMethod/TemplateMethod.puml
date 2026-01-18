@@ -1,0 +1,46 @@
+@startuml
+
+abstract class BeverageMaker {
+    + makeBeverage(): void
+    - boilWater(): void
+    - pourCup(): void
+    {abstract} - brew(): void
+    {abstract} - addCondiments(): void
+}
+
+
+class TeaMaker {
+    - brew(): void
+    - addCondiments(): void
+}
+
+class CoffeeMaker {
+    - brew(): void
+    - addCondiments(): void
+}
+
+TeaMaker --|> BeverageMaker
+CoffeeMaker --|> BeverageMaker
+
+note right of BeverageMaker::makeBeverage
+    Template Method:
+    1. boilWater()
+    2. brew()
+    3. pourCup()
+    4. addCondiments()
+end note
+
+note left of BeverageMaker
+    Abstract Class
+end note
+
+note left of TeaMaker
+    Concrete Class
+end note
+
+note right of CoffeeMaker
+    Concrete Class
+end note
+
+
+@enduml

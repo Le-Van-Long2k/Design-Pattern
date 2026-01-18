@@ -1,0 +1,53 @@
+@startuml
+
+interface Command {
+    + execute(): void
+    + undo(): void
+}
+
+note bottom of Command
+    Command interface
+end note
+
+class Device {
+    + turnOn(): void
+    + turnOff(): void
+}
+
+note bottom of Device
+    Receiver
+end note
+
+class TurnOnCommand {
+    - device: Device
+    + execute(): void
+    + undo(): void
+}
+
+class TurnOffCommand {
+    - device: Device
+    + execute(): void
+    + undo(): void
+}
+
+class RemoteControl {
+    - undoStack: Stack<Command>
+    - redoStack: Stack<Command>
+    - command: Command
+    + setCommand(command: Command)
+    + executeCommand(): void
+    + undo()
+}
+
+note bottom of RemoteControl
+    Invoker
+end note
+
+TurnOnCommand o-- Device
+TurnOnCommand ..|> Command
+TurnOffCommand o-- Device
+TurnOffCommand ..|> Command
+RemoteControl o-- Command
+
+
+@enduml
