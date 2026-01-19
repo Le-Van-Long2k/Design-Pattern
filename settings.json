@@ -1,0 +1,99 @@
+{
+  "editor.minimap.enabled": false,
+  "security.workspace.trust.untrustedFiles": "open",
+  "http.proxyStrictSSL": false,
+  "security.allowedUNCHosts": ["wsl.localhost"],
+  "vim.useCtrlKeys": false,
+  "editor.unicodeHighlight.nonBasicASCII": false,
+  "python.createEnvironment.trigger": "off",
+  "redhat.telemetry.enabled": false,
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 5000,
+  "editor.formatOnSave": true,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "liveServer.settings.donotVerifyTags": true,
+  "git.autofetch": true,
+  "terminal.integrated.profiles.windows": {
+    "Git Bash": {
+      "path": "C:\\Program Files\\Git\\bin\\bash.exe"
+    }
+  },
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "hediet.vscode-drawio.resizeImages": null,
+  "vim.vimrc.path": "/home/longlv/d:\\vim\\init.vimrc",
+  "editor.lineNumbers": "relative",
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": ["r", "n"],
+      "commands": [
+        "workbench.files.action.showActiveFileInExplorer",
+        "renameFile"
+      ]
+    }
+  ],
+  "vim.visualModeKeyBindingsNonRecursive": [],
+  "vim.vimrc.enable": true,
+  "vim.incsearch": true,
+  "vim.hlsearch": true,
+  "vim.visualstar": true,
+  "vim.insertModeKeyBindings": [
+    {
+      "before": ["j", "j"],
+      "after": ["<Esc>"]
+    }
+  ],
+  "vim.handleKeys": {
+    "<C-u>": true,
+    "<C-d>": false,
+    "<Tab>": true,
+    "<S-Tab>": true,
+    "<S-h>": false,
+    "<S-j>": false,
+    "<S-k>": false,
+    "<S-l>": false,
+    "<C-c>": false,
+    "<C-v>": false,
+    "<C-x>": false
+  },
+  "vim.cursorStylePerMode.insert": "line",
+  "vim.cursorStylePerMode.normal": "block",
+  "vim.cursorStylePerMode.replace": "underline",
+  "vim.cursorStylePerMode.visual": "block",
+  "vim.cursorStylePerMode.visualblock": "block",
+  "vim.cursorStylePerMode.visualline": "block",
+  "git.openRepositoryInParentFolders": "always",
+  "workbench.iconTheme": "material-icon-theme",
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "remote.SSH.remotePlatform": {
+    "10.116.226.23": "linux"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "cSpell.userWords": ["MQTT"],
+  "yaml.schemas": {
+    "file:///c%3A/Users/PC/.vscode/extensions/continue.continue-1.2.1-win32-x64/config-yaml-schema.json": [
+      ".continue/**/*.yaml"
+    ]
+  },
+  "workbench.secondarySideBar.defaultVisibility": "hidden",
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "editor.formatOnSave": true
+  },
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "python.analysis.autoFormatStrings": true,
+  "python.analysis.autoImportCompletions": true
+}
